@@ -39,24 +39,24 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "About",
     url: "#features",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "Precio",
     url: "#pricing",
   },
-  {
-    id: "2",
-    title: "How to use",
-    url: "#how-to-use",
-  },
-  {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
+  // {
+  //   id: "2",
+  //   title: "How to use",
+  //   url: "#how-to-use",
+  // },
+  // {
+  //   id: "3",
+  //   title: "Roadmap",
+  //   url: "#roadmap",
+  // },
   {
     id: "4",
     title: "New account",
@@ -208,52 +208,58 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Oso",
+    description: "1 Año",
+    price: "1",
     features: [
-      "An AI chatbot that can understand your queries",
+      "1 Metro cuadrado de Paramo",
       "Personalized recommendations based on your preferences",
       "Ability to explore the app and its features without any cost",
     ],
+    linkUrl: "https://example.com/basic"
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Venado",
+    description: "1 Año",
+    price: "Soon",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
+      "30 Metros cuadrados",
       "An analytics dashboard to track your conversations",
       "Priority support to solve issues quickly",
     ],
+    linkUrl: "https://www.truesocialtoken.xyz/"
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    title: "Corporate",
+    description: "1 Año",
+    price: "Soon",
     features: [
-      "An AI chatbot that can understand your queries",
+      "150 Metros cuadrados",
       "Personalized recommendations based on your preferences",
       "Ability to explore the app and its features without any cost",
     ],
+    linkUrl: "https://example.com/gold"
   },
+  
 ];
+
 
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Misión",
+    text: "TokeNatura consiste en la protección de áreas de alta biodiversidad como  páramos y otros ecosistemas de gran importancia, con el fin de proporcionar una alternativa eficiente y transparente de compensación ambiental a empresas y al mismo tiempo, ofrecer incentivos monetarios a los propietarios de tierras para que continúen protegiendo y conservando estos valiosos ecosistemas.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Introducción",
+    text: "El presente informe detalla los métodos utilizados y los resultados obtenidos durante el muestreo en el páramo, con el objetivo de estudiar la composición de especies y la diversidad alfa en dos alturas diferentes (3280m y 3310m).",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +267,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Técnicas de Muestreo",
+    text: "Muestreo de Composición de Especies: se realizó un muestreo sistemático utilizando cuadrantes de 1m x 1m en diferentes áreas del páramo. En cada cuadrante, se registraron todas las especies presentes junto con su abundancia relativa. Diversidad: en estas parcelas, se registraron todas las plántulas presentes, incluyendo datos sobre su especie, tamaño y estado. Se tomaron fotografías.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Consideraciones",
+    text: "Durante el muestreo, se tuvieron en cuenta las consideraciones ambientales y éticas para minimizar el impacto en el hábitat del páramo. Se evitó el daño a la vegetación circundante y se respetaron las regulaciones locales relacionadas con la protección de especies en peligro de extinción.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +284,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Análisis",
+    text: "La muestra se considera representativa de la diversidad de especies presente en el páramo, ya que se seleccionaron múltiples áreas de muestreo y se utilizaron métodos estandarizados para recolectar datos. Sin embargo, se reconoce que pueden existir sesgos asociados con la selección de sitios de muestreo y la limitación de recursos.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Resultados",
+    text: "Durante el muestreo, se registraron un total de 18 especies diferentes en el páramo. Los datos preliminares sugieren una variabilidad en la composición de especies entre las dos alturas muestreadas, con algunas especies que son más dominantes en una altura que en la otra. En su mayoría, se encontraron especies sanas, no obstante, hay evidencia de algunas especies en estados deteriorados por la sequía y aumento en la temperatura, como el frailejón.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
