@@ -1,8 +1,22 @@
+import  { useState } from 'react';
 import { check } from "../assets";
 import { pricing } from "../constants";
 import Button from "./Button";
 
 const PricingList = () => {
+  const [iframeUrl, setIframeUrl] = useState('');
+  const [showIframe, setShowIframe] = useState(false);
+
+  const handleButtonClick = (url) => {
+    setIframeUrl(url);
+    setShowIframe(true);
+  };
+
+  const handleCloseIframe = () => {
+    setShowIframe(false);
+    setIframeUrl(''); // Optionally clear the URL
+  };
+
   return (
     <div className="flex gap-[1rem] max-lg:flex-wrap">
       {pricing.map((item) => (
@@ -26,9 +40,7 @@ const PricingList = () => {
           </div>
           <Button
             className="w-full mb-6"
-            href={item.linkUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+            onClick={() => handleButtonClick(item.linkUrl)}
             white={!!item.price}
           >
             {item.price ? "Buy" : "Contact us"}
@@ -46,6 +58,18 @@ const PricingList = () => {
           </ul>
         </div>
       ))}
+      {showIframe && (
+        <div className="iframe-container relative" style={{ width: '100%', height: '700px' }}>
+          <iframe src={iframeUrl} title="Checkout" style={{ width: '100%', height: '100%' }} frameBorder="0"></iframe>
+          <button
+            onClick={handleCloseIframe}
+            className="absolute top-0 right-0 p-2 m-2 text-xl bg-white rounded-full cursor-pointer hover:bg-gray-200"
+            aria-label="Close"
+          >
+            ×
+          </button>
+        </div>
+      )}
     </div>
   );
 };
