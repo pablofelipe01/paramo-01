@@ -236,7 +236,7 @@ export const pricing = [
     description: "1 Año",
     price: "Soon",
     features: [
-      "10.000 Metros cuadrados",
+      "10.000 Metros cuadrados de paramo",
       // "Personalized recommendations based on your preferences",
       // "Ability to explore the app and its features without any cost",
     ],
@@ -249,7 +249,7 @@ export const pricing = [
     description: "1 Año",
     price: "Soon",
     features: [
-      "100.000 Metros cuadrados",
+      "100.000 Metros cuadrados de paramo",
       // "Personalized recommendations based on your preferences",
       // "Ability to explore the app and its features without any cost",
     ],
