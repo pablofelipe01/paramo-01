@@ -243,18 +243,18 @@ export const pricing = [
     linkUrl: "https://example.com/gold"
   },
   
-  {
-    id: "2",
-    title: "Corporate",
-    description: "1 Año",
-    price: "Soon",
-    features: [
-      "100.000 Metros cuadrados de paramo",
-      // "Personalized recommendations based on your preferences",
-      // "Ability to explore the app and its features without any cost",
-    ],
-    linkUrl: "https://example.com/gold"
-  },
+  // {
+  //   id: "2",
+  //   title: "Corporate",
+  //   description: "1 Año",
+  //   price: "Soon",
+  //   features: [
+  //     "100.000 Metros cuadrados de paramo",
+  //     // "Personalized recommendations based on your preferences",
+  //     // "Ability to explore the app and its features without any cost",
+  //   ],
+  //   linkUrl: "https://example.com/gold"
+  // },
   
 ];
 
