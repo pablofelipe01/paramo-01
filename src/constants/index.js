@@ -210,51 +210,29 @@ export const pricing = [
     id: "0",
     title: "Oso",
     description: "1 Año",
-    price: "1",
+    price: "1,62",
     features: [
-      "1 Metro cuadrado de Paramo",
-      // "Personalized recommendations based on your preferences",
-      // "Ability to explore the app and its features without any cost",
+      "1 Metro cuadrado ",
+      "Agua cristalina nutre biodiversidad única del páramo alto.",
+      "Especies nativas florecen en el páramo.",
+      
     ],
-    linkUrl: "https://app.unlock-protocol.com/checkout?id=2ed293d7-e4a6-4ec6-873d-91d190a20bea"
+    linkUrl: "https://www.crossmint.com/collections/natura-13/drop"
   },
-  // {
-  //   id: "1",
-  //   title: "Venado",
-  //   description: "1 Año",
-  //   price: "Soon",
-  //   features: [
-  //     "30 Metros cuadrados",
-  //     "An analytics dashboard to track your conversations",
-  //     "Priority support to solve issues quickly",
-  //   ],
-  //   linkUrl: "https://www.truesocialtoken.xyz/"
-  // },
+ 
   {
     id: "2",
     title: "Corporate",
     description: "1 Año",
     price: "Soon",
     features: [
-      "10.000 Metros cuadrados de paramo",
-      // "Personalized recommendations based on your preferences",
-      // "Ability to explore the app and its features without any cost",
+      "100.000 Metros cuadrados ",
+      "Agua cristalina nutre biodiversidad única del páramo alto.",
+      "Especies nativas florecen en el páramo.",
+      
     ],
     linkUrl: "https://example.com/gold"
   },
-  
-  // {
-  //   id: "2",
-  //   title: "Corporate",
-  //   description: "1 Año",
-  //   price: "Soon",
-  //   features: [
-  //     "100.000 Metros cuadrados de paramo",
-  //     // "Personalized recommendations based on your preferences",
-  //     // "Ability to explore the app and its features without any cost",
-  //   ],
-  //   linkUrl: "https://example.com/gold"
-  // },
   
 ];
 

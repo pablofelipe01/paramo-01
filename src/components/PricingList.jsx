@@ -59,18 +59,28 @@ const PricingList = () => {
         </div>
       ))}
       {showIframe && (
-        <div className="iframe-container relative" style={{ width: '100%', height: '700px' }}>
-          <iframe src={iframeUrl} title="Checkout" style={{ width: '100%', height: '100%' }} frameBorder="0"></iframe>
-          <button
-            onClick={handleCloseIframe}
-            className="absolute top-0 right-0 p-2 m-2 text-xl bg-white rounded-full cursor-pointer hover:bg-gray-200"
-            aria-label="Close"
-          >
-            ×
-          </button>
-        </div>
+        <div className="iframe-backdrop absolute inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
+            <div className="iframe-container relative p-4 bg-white rounded-lg shadow-lg w-full max-w-md mx-auto md:max-w-lg lg:max-w-xl"
+                style={{ width: '100%', maxWidth: '600px', height: 'auto', minHeight: '700px' }}>
+                <iframe src={iframeUrl} title="Checkout" 
+                  style={{ width: '100%', height: '100%' }}
+                  className="rounded-lg h-full min-h-[600px]" frameBorder="0"></iframe>
+                    <button
+                    onClick={handleCloseIframe}
+                    className="absolute top-0 right-0 p-2 m-2 text-xl bg-black rounded-full cursor-pointer hover:bg-gray-200"
+                    aria-label="Close"
+                    >
+                      ×
+                   </button>
+             </div>
+          </div>
+
+
+
       )}
+    
     </div>
+
   );
 };
 

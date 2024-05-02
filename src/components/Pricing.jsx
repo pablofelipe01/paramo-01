@@ -47,7 +47,9 @@ const Pricing = () => {
           </a>
         </div> */}
       </div>
+     
     </Section>
+    
   );
 };
 
