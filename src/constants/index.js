@@ -213,8 +213,8 @@ export const pricing = [
     price: "1",
     features: [
       "1 Metro cuadrado de Paramo",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      // "Personalized recommendations based on your preferences",
+      // "Ability to explore the app and its features without any cost",
     ],
     linkUrl: "https://app.unlock-protocol.com/checkout?id=2ed293d7-e4a6-4ec6-873d-91d190a20bea"
   },
@@ -236,9 +236,9 @@ export const pricing = [
     description: "1 Año",
     price: "Soon",
     features: [
-      "150 Metros cuadrados",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "10.000 Metros cuadrados",
+      // "Personalized recommendations based on your preferences",
+      // "Ability to explore the app and its features without any cost",
     ],
     linkUrl: "https://example.com/gold"
   },
